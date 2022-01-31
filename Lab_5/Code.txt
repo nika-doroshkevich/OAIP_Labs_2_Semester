@@ -1,0 +1,20 @@
+  Writeln('(A-B^2)*(2*A+B):');
+  Writeln('Matrix A:');
+  Output(A);
+
+  Writeln;
+
+  Writeln('Matrix B:');
+  Output(B);
+  Writeln;
+
+  Multip(TempMatr1, B, B);
+  Scalar(TempMatr1, -1, TempMatr1);
+  Sum(TempMatr1, A, TempMatr1);
+  Scalar(TempMatr2, 2, A);
+  Sum (TempMatr2, TempMatr2, B);
+  Multip(TempMatr1, TempMatr1, TempMatr2);
+
+  Writeln('(A-B^2)*(2*A+B)=');
+  Output(TempMatr1);
+  Readln
