@@ -1,4 +1,4 @@
-# :pushpin: This is my labs in Delphi 7 for the subject "Fundamentals of Algorithmization and Programming (Part 2)"
+# :pushpin: These are my labs in Delphi 7 for the subject "Fundamentals of Algorithmization and Programming (Part 2)"
 
 I did these labs in the first year of university in the second semester.
 
